@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta name="name" content="Les Sables fins">
+    <meta name="description" content="Les sables fins, le site qui vous permet de réserver votre chambre d'hôtes pour vos vacances.">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://www.les-sables-fins.netlify.com/contact.html" />
+    <link rel="shortcut icon" href="/images/icon/shell.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6839e7c8a5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- barre de navigation -->
+        <!-- Simulate a smartphone / tablet -->
+<header class="mobile-container">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="/index.html"><img id="logo" src="/images/logo.png" alt="logo"></a>
+        <p>Les Sables fins</p>
+        
+        <div id="myLinks">
+          <a href="/index.html">ACCUEIL</a>
+          <a href="/chambres.html">CHAMBRE</a>
+          <a href="/galerie.html">GALERIE</a>
+          <a href="/region.html">REGION</a>
+          <a href="/tarifs.html">TARIFS</a>
+          <a href="/contact.html">CONTACT</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        
+      </div>
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+</script>
+    </header>
+    <img src="/images/bannière web1.png" alt="bannière" class="banner">
+    <div class="t19">
+        <h1>Contactez-nous</h1>
+    </div>
+    <div class="texte-contact">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br> Aenean commodo ligula eget dolor.</p>
+    </div>
+    <section class="carte">
+        <div class="contact-1">
+            <div class="c-1">
+                <p>Mr et Mme X</p>
+            </div>
+            <ul class="c-2">
+                <li><i class="fas fa-map-marker-alt"></i>12 avenue de la plage</li>
+                   <li><i class="fas fa-phone-alt"></i>06.01.01.01.01</li>
+                   <li><i class="fas fa-at"></i>lesablesfins@lessablesfins.fr</li>
+            </ul>
+        </div>
+        <div class="localisation">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5494.314804333521!2d-1.764152411643739!3d46.485195595520466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4804678ad779b81f%3A0x40d37521e09b240!2s85100%20Les%20Sables-d&#39;Olonne!5e0!3m2!1sfr!2sfr!4v1587024888648!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>        </div>
+    </section>
+    <div class="t20">
+        <h1>Réservation</h1>
+    </div>   
+    </div>
+   
+        <div class="texte-dates">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
+            Aenean commodo ligula eget dolor. <br>
+            Aenean massa. Cum sociis natoque penatibus et <br>
+            magnis dis parturiet montes, nascetur ridiculus mus. <br>
+            </p>
+        </div>
+        <section class="dates">
+        <div class="reserver">
+            <div class="sejour">
+                <div class="arrivee">
+                    <label for="">Arrivée</label>
+                    <input type="date" class="select-date" >
+                </div>
+                <div class="depart">
+                    <label for="">Départ</label>
+                    <input type="date" class="select-date" >
+                </div>
+            </div>
+            <div class="quantité">
+                <div class="nombre-de-personnes">
+                    <label for="">Adultes</label>
+                    <input type="number" class="personnes" value="1">
+                </div>
+                <div class="nb-chambre">
+                    <label for="">Chambres</label>
+                    <input type="number" class="nb-chambres" value="1">
+                </div> 
+            </div>
+               
+        </div>
+        <div class="bouton-2">
+            <a href="/contact.html">Valider</a>
+        </div>
+   </section>
+   <div class="t21">
+        <h2>Formulaire de réservation</h2>
+   </div>
+   <form>
+       <div class="champs-1">
+        <div class="nom">
+            <label for="name"><i class="far fa-address-card"></i>Nom</label>
+            <input type="text" class="name" id="name" value="nom" required>
+        </div>
+        <div class="prenom">
+            <label for="prenom"><i class="far fa-address-card"></i>Prénom</label>
+            <input type="text" class="prenom" id="prenom" value="prénom"required>
+        </div>
+       </div>
+       <div class="champs-2">
+        <div class="email">
+            <label for="mail"><i class="fas fa-at"></i>E-mail</label>
+            <input type="text" class="mail" id="mail" value="email@email.fr" required>
+        </div>
+        <div class="telephone">
+            <label for="phone"><i class="fas fa-phone-alt"></i>Téléphone</label>
+            <input type="tel" id="phone" name="phone" required value="téléphone">
+        </div>
+       </div>
+        <div class="message" >
+            <div class="comments">
+                <label for="message"></i><i class="far fa-comment-dots"></i>Message</label>
+            </div>
+            <div class="area">
+                <textarea name="comments" id="comments" cols="30" rows="6" required>
+                </textarea>
+            </div>
+        </div>
+        
+   </form>
+   <div class="envoi">
+    <a href="">Envoyer</a>
+</div>
+<footer>
+    <div class="container-footer">
+        <div class="contenu-footer">
+           <div class="contact-2">
+               <h5>Mr et Mme X</h5>  
+               <ul>
+                   <li><i class="fas fa-map-marker-alt"></i>12 avenue de la plage</li>
+                   <li><i class="fas fa-phone-alt"></i>06.01.01.01.01</li>
+                   <li><i class="fas fa-at"></i>lesablesfins@lessablesfins.fr</li>
+               </ul>
+            </div>
+            <div class="reseaux">
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-tripadvisor"></i></a></li>
+                    <li><a href=""><i class="fas fa-wifi"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   <div class="copyright">
+       <p> &copy; 2020 - Les Sables fins - <a href="/"> Mentions légales</a></p>
+       
+   </div>
+
+</footer>
+</body>
+</html>
