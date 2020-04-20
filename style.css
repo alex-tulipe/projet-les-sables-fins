@@ -31,9 +31,11 @@ p{
 }
 /* navbar */
 .topnav{
+  display: -webkit-box;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 /* Eléments bare de navigation */
@@ -48,12 +50,16 @@ p{
 
 .topnav #myLinks {
   
+  display: -webkit-box;
+  
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
   }
 .topnav #myLinks a:hover{
     color: #ef4565;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     font-weight: bold;
 }
@@ -83,21 +89,27 @@ p{
 /* title-1 */
 .box h1{
     margin-top: 40px;
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     text-align: center;
 }
 
 /* CENTRER SECTION */
 .content-1{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-top: 40px;
 }
 /* ARRIERE PLAN BOX 2 */
 .content-1 .box-1{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     background: url(./images/accueil/images-i.png);
     min-height: 60vh;
     width: 700px;
@@ -108,10 +120,15 @@ p{
 }
 /* PARAGRAPHE DE PRESENTATION */
 .content-1 .box-1 .presentation{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+            align-items: center;
 }
 .content-1 .box-1 .presentation p{
     max-width: 600px;    
@@ -119,14 +136,18 @@ p{
 /* DEUXIEME PARTIE ACCUEIL */
 /* TITRE PARTIE 2 */
 .title-1{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-top: 30px;
 }
 /* CENTRER LES TROIS BLOC ACCUEIL-2 */
 .boite{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
 }
@@ -145,8 +166,10 @@ p{
 }
 /* TEXTE-1 */
 .texte-1{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }
 .texte-1 p{
     max-width: 250px;
@@ -209,6 +232,7 @@ p{
 }
 
 .reseaux ul{
+    display: -webkit-box;
     display: flex;
     list-style: none;  
     
@@ -218,9 +242,12 @@ p{
 }
 
 .contenu-footer{
+    display:-webkit-box;
     display:flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
     flex-wrap: wrap;
 }
 
@@ -228,8 +255,10 @@ p{
     background: rgb(160, 160, 160);
     height: 100%;
     width: 100%;
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }
 .copyright p{
     margin-top: 10px;
@@ -245,17 +274,21 @@ p{
 /* CHAMBRES.HTML */
 /* 1.TITLE-1 */
 .t1{
+    display: -webkit-box;
     display: flex; 
     text-align: center;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-top: 40px;
 }
 .t1 h1{
     margin-bottom: 20px;
 }
 .p1{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }
 .p1 p{
     max-width: 600px;
@@ -265,15 +298,20 @@ p{
 /* CHAMBRE 1 */
 
 .chambres h2{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .container-chambre-1{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
     
 }
 .box-ch-1 p{
@@ -297,9 +335,12 @@ p{
 
 /* CHAMBRE 2 */
 .container-chambre-2{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
     margin-top: 20px;
     flex-wrap: wrap;
 }
@@ -319,9 +360,12 @@ p{
 }
 /* CHAMBRE 3 */
 .container-chambre-3{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
     margin-top: 20px;
     flex-wrap: wrap;
 }
@@ -342,26 +386,33 @@ p{
 
 /* CENTRER SECTION */
 .photos-ch{
+    display: -webkit-box;
     display: flex;
     flex-wrap: nowrap;
 }
 .photos-ch-2{
+    display: -webkit-box;
     display: flex;
     flex-wrap: nowrap;
 }
 .photos-ch-3{
+    display: -webkit-box;
     display: flex;
     flex-wrap: nowrap;
 }
 .content-chambres{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-top: 40px;
 }
 /* ARRIERE PLAN BOX CHAMBRES */
 .content-chambres .box-ch{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     background: url(./images/chambres/salon.png);
     opacity: 0.75;
     min-height: 60vh;
@@ -374,10 +425,15 @@ p{
 }
 /* PARAGRAPHE CHAMBRES */
 .content-chambres .box-ch .horaires-ch{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+            align-items: center;
 }
 .content-chambres .box-ch .horaires-ch p{
     color: #000000;
@@ -390,8 +446,10 @@ p{
 /* GALERIE PHOTOS */
 /* TITRE GALERIE */
 .t2{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-bottom: 40px;
     margin-top: 60px;
 }
@@ -418,9 +476,13 @@ p{
     color: #ef4565;
     font-weight: bold;
     font-size: 20px;
+    -webkit-transition: 0.6s ease;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8)
@@ -454,6 +516,7 @@ p{
     background-color: #ef4565;
     border-radius: 50%;
     display: inline-block;
+    -webkit-transition: 0.6s ease;
     transition: 0.6s ease;
 }
 .active, .dot:hover {
@@ -479,8 +542,10 @@ p{
   }
 /* TABLES D HOTES */
 .t3{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -491,8 +556,10 @@ p{
     margin-right: 50px;
 }
 .dejeuner{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }
 .dejeuner img{
     max-width: 300px;
@@ -507,8 +574,10 @@ p{
     border: 2px solid #ef4565;
 }
 .container-dejeuner .container-plateau{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }
 .container-dejeuner .container-plateau .plateau p{
     max-width: 800px;
@@ -516,14 +585,18 @@ p{
 }
 /* PETIT DEJEUNER */
 .t4{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-bottom: 40px;
     margin-top: 60px;
 }
 .petit-dejeuner{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-top: 30px;    
 }
 .petit-dejeuner img{
@@ -539,8 +612,10 @@ p{
     border: 2px solid #ef4565;
 }
 .container-petit-dej .petit-dej-p {
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }
 .container-petit-dej .petit-dej-p p{
     max-width: 800px;
@@ -554,9 +629,12 @@ p{
 }
 /* CENTRER LE CONTAINER ESPACE SPA */
 .espace-spa{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
     margin-top: 40px;
 }
 .espace-spa h2{
@@ -600,8 +678,10 @@ p{
     margin-bottom: 30px;
 }
 .texte-region{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-bottom: 40px;
 }
 .texte-region p{
@@ -609,9 +689,12 @@ p{
 }
 /* STRUCTURE LOISIRS */
 .loisirs{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
     flex-wrap: wrap;
 }
 /* 1.ZOO DES SABLES */
@@ -646,6 +729,7 @@ p{
     margin-top: 10px;
 }
 .titre-aquarium{
+    display: -webkit-box;
     display: flex;
     margin-left: 40px;
 }
@@ -669,9 +753,12 @@ p{
 }
 /* LOISIRS-2 */
 .loisirs-2{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
     margin-top: 30px;
     margin-left: 40px;
     flex-wrap: wrap;
@@ -707,8 +794,10 @@ p{
     margin-top: 10px;
 }
 .titre-casino{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }  
 .icon-casino img{
     max-width: 30px;
@@ -738,8 +827,10 @@ p{
     margin-bottom: 30px;
 }
 .texte-tarifs p{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-bottom: 40px;
 }
 /* LES CHAMBRES TARIFS */
@@ -776,9 +867,12 @@ p{
     text-align: center;
 }
 .autres-tarifs{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
     flex-wrap: wrap;
 }
 .petit-dej-table-hotes{
@@ -807,8 +901,10 @@ p{
 }
 /* BOUTON RESERVER */
 .bouton{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-top: 40px;
 }
 .bouton a{
@@ -830,8 +926,10 @@ p{
 }
 /* PRESTATIONS 1 */
 .services-1{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-top: 40px;
     flex-wrap: wrap;
 }
@@ -849,7 +947,8 @@ p{
     width: 170px;
     height: 170px;
     padding: 20px 50px;  
-    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);  
+            clip-path: circle(50% at 50% 50%);
     margin-right: 100px;
 }
 /* TV */
@@ -866,12 +965,15 @@ p{
     width: 170px;
     height: 170px;
     padding: 15px 50px;  
-    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);  
+            clip-path: circle(50% at 50% 50%);
 }
 /* PRESTATIONS 2*/ 
 .services-2{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-top: 40px;
     flex-wrap: wrap;
 }
@@ -881,7 +983,8 @@ p{
 .terrasse img{
     width: 180px;
     height: 180px;
-    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
 }
 .terrasse h2{
     font-size: 22px;
@@ -890,7 +993,8 @@ p{
 .table img{
     width: 180px;
     height: 180px;
-    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
 }
 .table h2{
     font-size: 22px;
@@ -906,8 +1010,10 @@ p{
 }
 /* TEXTE CONTACT */
 .texte-contact{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin-bottom: 20px;
 }
 /* COORDONNEES */
@@ -935,9 +1041,12 @@ p{
 }
 /* CARTE */
 .carte{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
     margin-top: 60px;
     flex-wrap: wrap;
 }
@@ -960,8 +1069,10 @@ p{
 }
 /* TEXTE DATES */
 .texte-dates p{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }
 /* CHAMPS RESERVER */
 
@@ -1006,14 +1117,6 @@ textarea{
     border-radius: 4px;
     background: #d4d4d4;
 }
-.sejour{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-left: 40px;
-    text-align: center;
-}
 .quantité{
     display: block;
     text-align: center;
@@ -1027,8 +1130,7 @@ textarea{
     width: 500px;
     position: relative;
     left: 700px;
-    border-radius: 8px;
-    
+    border-radius: 8px;   
 }
 .reserver label{
     font-size: 16px;
@@ -1043,12 +1145,16 @@ textarea{
 }
 /* FORMULAIRE DE RESERVATION */
 .champs-1{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }
 .champs-2{
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
 }
 .message{
     display: block;
@@ -1095,8 +1201,10 @@ form{
     padding: 15px;
 }
 .bouton-2{
+    display: -webkit-box;
     display: flex;
-    justify-content: center; 
+    -webkit-box-pack: center;
+            justify-content: center; 
 }
 .envoi a{
     background: #094067;
@@ -1110,8 +1218,10 @@ form{
     padding: 10px 10px;   
 }
 .envoi{
+    display: -webkit-box;
     display: flex;
-    justify-content: center; 
+    -webkit-box-pack: center;
+            justify-content: center; 
 }
 input[type=text] {
     border: 2px solid #094067;
@@ -1211,8 +1321,11 @@ input[type=tel] {
   
   /* CHAMBRES-HTML */
 .container-chambre-1{
+    display: -webkit-box;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
 }
 
 .photos-ch{
